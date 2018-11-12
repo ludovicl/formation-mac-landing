@@ -31,6 +31,15 @@
     src="https://www.facebook.com/tr?id=307612656634344&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Facebook Pixel Code -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129097592-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-129097592-1');
+  </script>
   {% seo %}
 </head>
 
@@ -117,7 +126,7 @@
             <p>Ingénieur logiciel et utilisateur de Mac depuis 10 ans, Ludovic aime partager ses
               connaissances.</p>
               <p class="card-text">
-                Pour toutes questions concernant votre Mac, il vous répondra avec plaisir à l'adresse : <a href="mailto:contact@je-me-forme.fr">contact@je-me-forme.fr</a> 
+                Pour toutes questions concernant votre Mac, il vous répondra avec plaisir à l'adresse : <a href="mailto:contact@je-me-forme.fr">contact@je-me-forme.fr</a>
               </p>
           </div>
         </div>
@@ -138,11 +147,11 @@
     <script type="text/javascript">
     function showMailingPopUp() {
       window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"6414e89610504e2e3fe46f528","lid":"e4b20b007d","uniqueMethods":true}) })
-      document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";                  
-      document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";                  
+      document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+      document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
     }
     $(function() {
-    $(".open-popup").on('click', function() { 
+    $(".open-popup").on('click', function() {
       showMailingPopUp();
     });
   });
